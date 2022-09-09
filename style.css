@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+:root {
+    --bg-color: #41413D;
+    --light: #fff;
+    --dark: #000;
+    --type-1: #297972;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    font-family: 'Oswald', sans-serif;
+    color: var(--light);
+    min-height: 200px;
+    padding: 20px 40px;
+}
+
+.header__title {
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+.header__sub-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.main {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    color: var(--light);
+    padding: 20px 50px;
+    min-width: 35%;
+}
+
+.contact__title,
+.tech-skills__title,
+.soft-skills__title {
+    display: flex;
+    align-items: center;
+
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 250px;
+    margin-left: -50px;
+    border-radius: 30px;
+    background-color: var(--type-1);
+}
+
+.list {
+    list-style: none;
+}
+
+.contact__list,
+.tech-skills__list,
+.soft-skills__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    padding: 20px 50px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    background-color: var(--light);
+}
+
+.content__summary--title,
+.content__education--title,
+.content__courses--title,
+.content__language--title {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: var(--type-1);
+}
+
+.content__summary--text,
+.content__education,
+.content__courses,
+.content__language {
+    line-height: 1.6;
+}
