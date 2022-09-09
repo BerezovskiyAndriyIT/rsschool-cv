@@ -1,1 +1,1 @@
-[Berezovskiy Andriy - cv](https://BerezovskiyAndriyIT.github.io/rsschool-cv/cv)
+[Berezovskiy Andriy - cv](https://BerezovskiyAndriyIT.github.io/rsschool-cv/)
